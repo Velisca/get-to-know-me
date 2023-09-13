@@ -22,21 +22,12 @@
         align-items: center;
         justify-content: space-between;
       }
-
-      .d-flexend {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-      }
-      
       .col-lg-6 {
         margin-right: 20px; 
       }
       .bg-custom-secondary {
         background-color:#e6c8e6; 
       }
-
       .bg-custom-two-secondary {
         background-color: #fffed4;
       }
@@ -44,14 +35,31 @@
       body {
             background-color: lightblue;
         }
+      .empty-space {
+            width: 50%; 
+            height: 50px; 
+            margin: 0 auto; 
+            background-color: lightblue; 
+      }
+      .empty-space-two {
+          width: 50%; 
+          height: 20px; 
+          margin: 0 auto; 
+          background-color: lightblue; 
+      }
     </style>
   </head>
   <body>
     <main class="container">
-      <header class="border-bottom lh-1 py-3">
-      <h1 class="Inconsolata font-size: 300" style="color: #1a2c4c;">Get to Know ME</h1>
+      <header class="border-bottom py-2">
+      <div class="empty-space-two"></div>
+      <h1 class="Inconsolata font-size: 300" style="color: #1a2c4c;">&#x2728; Get to Know ME &#x2728;</h1>
+      <hr>
+      <div class="empty-space-two"></div>
+      <h2 class="Consolas font-size 18">Contents &#10549;</h2>
+      <hr>
       </header>
-    
+      
       <div class="nav-scroller py-10 mb-10 border-bottom">
         <nav class="nav nav-underline justify-content-between">
           <h3 class="Consolas font-size 14" >About Me</h3>
@@ -60,7 +68,7 @@
           <h3 class="Consolas font-size 14" >Contact Me</h3>
         </nav>
       </div>
-        </div>
+      <div class="empty-space"></div>
     
     <main class="container"> 
       <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-custom-secondary d-flex">
